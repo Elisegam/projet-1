@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Bubblegum";
+  src: url("./Bubblegum.ttf");
+}
+body {
+  background: url("./649168.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Bubblegum";
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: auto;
+}
+h1 {
+  font-family: "Bubblegum";
+  text-align: center;
+  font-size: 100px;
+  color: #ffc04d;
+  margin: 50px;
+  text-shadow: 4px 4px 2px rgba(0, 0, 255, 0.2);
+}
+#instruction {
+  width: 40%;
+  font-size: 20px;
+}
+.game-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn {
+  color: #ff8353;
+  background: transparent;
+  border: 2px solid #ff8353;
+  border-radius: 6px;
+  width: 200px;
+  height: auto;
+  font-size: 20px;
+  font-style: oblique;
+  font-family: "Bubblegum";
+  text-align: center;
+  box-shadow: 7px 2px 2px 2px rgba(0, 0, 255, 0.2);
+}
+
+.btn:hover {
+  background-color: #ff8353;
+  color: white;
+}
+
+#game-block {
+  display: flex;
+  margin: 50px 0;
+  padding: 0;
+}
+canvas {
+  padding: 0;
+  margin: auto;
+  font-style: inherit;
+  box-shadow: 7px 13px 9px 6px rgba(0, 0, 255, 0.2);
+}
+
+#score {
+  padding: 20px;
+  font-size: 20px;
+}
+.rect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1% 3%;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 2px groove #808080;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}

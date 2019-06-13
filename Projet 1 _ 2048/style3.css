@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Bubblegum";
+  src: url("./Bubblegum.ttf");
+}
+body {
+  background: radial-gradient(#bba8a8 #ffffff);
+}
+.gameover {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bubblegum";
+  display: flex;
+  flex-direction: column;
+  font-size: 150px;
+  background: -webkit-linear-gradient(#bb3838, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* img {
+  border: 2px groove #808080;
+  box-shadow: 7px 2px 2px 2px rgba(0, 0, 255, 0.2);
+} */

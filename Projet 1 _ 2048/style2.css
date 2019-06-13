@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Bubblegum";
+  src: url("./Bubblegum.ttf");
+}
+body {
+  background: url("./papers.co-sm57-shy-pastel-blur-gradation-red-29-wallpaper.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Bubblegum";
+}
+.full-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.big-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 20% auto; */
+  padding: 10% 20%;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 2px groove #808080;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+.gamecont {
+  font-size: 100px;
+  border: 2px groove transparent;
+  padding: 100px;
+  background: #808080;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+.btn1 {
+  color: #65b3f6;
+  background: transparent;
+  border: 2px solid #65b3f6;
+  border-radius: 6px;
+  width: 200px;
+  height: auto;
+  font-size: 30px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+button:hover {
+  background-color: #65b3f6;
+  color: white;
+}
+
+.case-play {
+  margin-top: 10%;
+  padding: 30px;
+}
